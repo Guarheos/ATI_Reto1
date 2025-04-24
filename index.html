@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+    <meta charset="utf-8">
+    <link rel="icon" href="27369180/favicon.ico" type="image/x-icon">
+    <title> ATI[UCV] 2025-1 </title>
+    <style>
+        header {
+            border-bottom: 3px solid black;
+        }
+        body {
+            margin: 0;
+            min-height: 100vh;
+        }
+        footer {
+            position: fixed;
+            bottom: 0;
+            text-align: center;
+            background-color: #007bff; 
+            width: 100%;
+            padding: 15px;
+            margin: 0%;
+            color: white; 
+            border-top: 3px solid black;
+        }
+        .borde_superior {
+            background-color: #007bff; 
+            color: white; 
+            width: 100%;
+            height: 100%;
+            padding: 0%;
+            margin: 0%;
+            align-items: center;
+            list-style-type: none;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; 
+        }
+
+        .borde_superior li {
+            text-align: center; 
+            margin: -4px;
+            padding: 7px;
+        }
+        .ArrIzq {
+            border-right: 1px solid white;
+            font-size: xx-large;
+        }
+        .ArrIzq span {
+            font-size: large;
+        }
+        .formulario{
+            border-left: 1px solid white;
+            margin: -4px;
+            padding: 7px;
+        }
+        .formulario input[type="text"] {
+            width: 250px; 
+            height: 20px; 
+            font-size: 16px; 
+            padding: 5px; 
+        }
+
+        .formulario button {
+            height: 35px; 
+            font-size: 14px;
+            padding: 5px 10px;
+            color: gray;
+            border-radius: 0px;
+            cursor: pointer;
+        }
+
+        .tarjeta {
+            list-style-type: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 0;
+        }
+        .dummy {
+            width: 300px;
+            height: 300px;
+            text-align: center;
+            padding: 10px;
+            box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+            background-color: #f5f7f9;
+        }
+        .dummy img {
+            height: 250px;
+        }
+
+        .dummy p {
+            font-size: 17px;
+            text-align: center;
+            color: #87b1ef;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- La sección de Header -->
+    <header>
+        <nav>
+            <ul class="borde_superior">
+                <li class="ArrIzq">ATI<span>[UCV]</span>2025-1</li>
+                <li>Hola, Guillermo Hernández</li>
+                <li>
+                    <form class="formulario" action="/buscar" method="get">
+                        <input type="text" id="search" name="query" placeholder="Nombre...">
+                        <button type="submit">Buscar</button>
+                    </form>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- La sección de section -->
+    <section>
+        <ul class="tarjeta">
+            <li class="dummy">
+                <img src="27369180/27369180.jpg" alt="Foto de perfil">
+                <p class="nombre">Guillermo Hernández</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy1/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Sofia Ramírez</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy2/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Valeria González</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy3/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Camila Torres</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy4/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Daniel Hernández</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy5/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Andrés Pérez</p>
+            </li>
+            <li class="dummy">
+                <img src="dummy6/dummy.jpg" alt="Foto de perfil">
+                <p class="nombre">Gabriel López</p>
+            </li>
+    </section>
+
+    <!-- La sección de Footer -->
+    <footer>
+        Copyright © 2025 Escuela de computación - ATI. Todos los derechos reservados
+    </footer>
+</body>
+</html>

@@ -1,2 +1,2 @@
-Estudiante: Guillermo Arturo Hernandez Osorio
+Estudiante: Guillermo Arturo Hernandez Osorio  
 Cedula: V27369180

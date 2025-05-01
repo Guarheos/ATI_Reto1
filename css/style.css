@@ -1,8 +1,20 @@
-.foto img {
+/* Estilos de perfil.html */
+
+
+.foto {
     border-top-left-radius: 75px;
     margin-right: 10px;
-    max-height:450px;
+    width: 300px;
+    height: 450px;
+    max-height: 450px;
+    background-image: url('../27369180/27369180Grande.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+
 }
+
 .perfil{
     display: flex;
     align-items: flex-start;
@@ -26,11 +38,11 @@
     margin: 0px;
     padding: 0px;
 }
-a {
+.descripcion a{
     color: orange;
     text-decoration: none;
 }
-a:visited {
+.descripcion a:visited {
     color: red;
 }
 
@@ -46,6 +58,8 @@ a:visited {
     row-gap: 5px;
 }
 
+
+/* Estilos de Index.html */
 
 header {
     border-bottom: 3px solid black;
@@ -96,6 +110,7 @@ footer{
     margin: -4px;
     padding: 7px;
 }
+
 .formulario input[type="text"] {
     width: 250px; 
     height: 20px; 
@@ -129,6 +144,7 @@ footer{
     background-color: #f5f7f9;
     transition: transform 0.4s ease, background-color 0.4s ease;
 }
+
 .dummy:hover{
     transform: scale(1.1) rotate(10deg);
     background-color: #99c5dd;
@@ -140,7 +156,202 @@ footer{
 }
 
 .dummy p {
-    font-size: 17px;
+    font-size: 18px;
     text-align: center;
+}
+
+.dummy p a {
     color: #87b1ef;
+    text-decoration: none;
+}
+
+.dummy p a:visited {
+    color: blue;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px),
+       (min-width: 481px) and (max-width: 768px) {
+
+
+    /* Estilos de perfil.html */
+    .foto {
+        background-image: url('../27369180/27369180Pequena.jpg');
+        width: 150px;
+        height: 225px;
+        max-height: 225px;
+        margin-right: 5px;
+    }
+
+    .nombre {
+        font-size: 20px !important;
+    }
+    .descripcion {
+        width: 450px;
+        height: 205px;
+    }
+
+    .fuente {
+        font-size: 10px;
+    }
+
+    .puntos span {
+        font-size: 9px;
+    }
+    .descripcion a {
+        font-size: 9px;
+    }
+    .descripcion p {
+        font-size: 9px;
+    }
+
+    /* Estilos de Index.html */
+
+    footer{
+        padding: 3px;
+        font-size: 10px;
+    }
+    
+    .borde_superior li {
+        text-align: center; 
+        margin: -4px;
+        padding: 7px;
+        font-size: small;
+    }
+    .ArrIzq {
+        border-right: 1px solid white;
+        font-size: medium !important;
+    }
+    .ArrIzq span {
+        font-size: smaller;
+    }
+    .formulario{
+        border-left: 1px solid white;
+        margin: -4px;
+        padding: 7px;
+    }
+    
+    .formulario input[type="text"] {
+        width: 125px; 
+        height: 10px; 
+        font-size: 8px; 
+        padding: 2.5px; 
+    }
+    
+    .formulario button {
+        height: 17.5px; 
+        font-size: 7px;
+        padding: 2.5px 5px;
+    }
+    .dummy {
+        width: 150px;
+        height: 150px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+        background-color: #f5f7f9;
+        transition: transform 0.4s ease, background-color 0.4s ease;
+    }
+    
+    .dummy img {
+        height: 120px;
+    }
+    
+    .dummy p {
+        font-size: 13px;
+        text-align: center;
+    }
+
+}
+
+
+@media (min-width:769px) and (max-width: 1024px),
+        (min-width:1025px) and (max-width: 1200px) {
+    /* Estilos de perfil.html */
+    .foto {
+        background-image: url('../27369180/27369180Grande.jpg');
+        width: 200px;
+        height: 320px;
+        max-height: 320px;
+        margin-right: 5px;
+    }
+
+    .nombre {
+        font-size: 30px !important;
+    }
+    .descripcion {
+        width: 650px;
+        height: 300px;
+    }
+
+    .fuente {
+        font-size: 16px;
+    }
+
+    .puntos span {
+        font-size: 14px;
+    }
+    .descripcion a {
+        font-size: 14px;
+    }
+    .descripcion p {
+        font-size: 14px;
+    }
+    /* Estilos de Index.html */
+
+    footer{
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .borde_superior li {
+        text-align: center; 
+        margin: -4px;
+        padding: 7px;
+        font-size: small;
+    }
+    .ArrIzq {
+        border-right: 1px solid white;
+        font-size: large !important;
+    }
+    .ArrIzq span {
+        font-size: small;
+    }
+    .formulario{
+        border-left: 1px solid white;
+        margin: -4px;
+        padding: 7px;
+    }
+    
+    .formulario input[type="text"] {
+        width: 175px; 
+        height: 20px; 
+        font-size: 13px; 
+        padding: 3px; 
+    }
+    
+    .formulario button {
+        height: 30 px; 
+        font-size: 14px;
+        padding: 3px 6px;
+    }
+    .dummy {
+        width: 225px;
+        height: 225px;
+        text-align: center;
+        padding: 10px;
+        box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+        background-color: #f5f7f9;
+        transition: transform 0.4s ease, background-color 0.4s ease;
+    }
+    
+    .dummy img {
+        height: 175px;
+    }
+    
+    .dummy p {
+        font-size: 16px;
+        text-align: center;
+    }
+
 }

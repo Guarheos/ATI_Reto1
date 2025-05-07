@@ -1,13 +1,12 @@
 /* Estilos de perfil.html */
 
 
-.foto {
+#foto {
     border-top-left-radius: 75px;
     margin-right: 10px;
     width: 300px;
     height: 450px;
     max-height: 450px;
-    background-image: url('../27369180/27369180Grande.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +27,7 @@
     height: 430px;
     margin: 0px;
 }
-.nombre{
+#nombre{
     font-size: 50px;
     color: blue;
     margin: 0px;
@@ -46,7 +45,7 @@
     color: red;
 }
 
-.fuente {
+#fuente {
     font-family: "Times New Roman", Times, serif;
     font-style: italic;
     font-size: 20px;
@@ -175,15 +174,14 @@ footer{
 
 
     /* Estilos de perfil.html */
-    .foto {
-        background-image: url('../27369180/27369180Pequena.jpg');
+    #foto {
         width: 150px;
         height: 225px;
         max-height: 225px;
         margin-right: 5px;
     }
 
-    .nombre {
+    #nombre {
         font-size: 20px !important;
     }
     .descripcion {
@@ -191,7 +189,7 @@ footer{
         height: 205px;
     }
 
-    .fuente {
+    #fuente {
         font-size: 10px;
     }
 
@@ -268,15 +266,14 @@ footer{
 @media (min-width:769px) and (max-width: 1024px),
         (min-width:1025px) and (max-width: 1200px) {
     /* Estilos de perfil.html */
-    .foto {
-        background-image: url('../27369180/27369180Grande.jpg');
+    #foto {
         width: 200px;
         height: 320px;
         max-height: 320px;
         margin-right: 5px;
     }
 
-    .nombre {
+    #nombre {
         font-size: 30px !important;
     }
     .descripcion {
@@ -284,7 +281,7 @@ footer{
         height: 300px;
     }
 
-    .fuente {
+    #fuente {
         font-size: 16px;
     }
 

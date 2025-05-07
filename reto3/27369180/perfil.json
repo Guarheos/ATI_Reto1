@@ -1,4 +1,4 @@
-const perfil = {	
+{	
 	"nombre":"Guillermo Hernandez",
 	"descripcion":"Soy estudiante de la carrera de Licenciatura en Computación de la UCV, cursando el 7mo semestre. Actualmente trabajo como preparador de la materia de Sistemas Operativos y soy Auxiliar Docente de CICORE. En mis tiempos libres estudio el idioma Japonés y juego videojuegos como Monster Hunter.",
 	"color": "Azul",
@@ -9,5 +9,6 @@ const perfil = {
 	"email":"guillermohernandezguoze@gmail.com",
 	"ci": "27369180",
 	"genero":"masculino",
-	"fecha_nacimiento":"26/07/2000"
+	"fecha_nacimiento":"26/07/2000",
+	"imagen": "27369180.jpg"
 }

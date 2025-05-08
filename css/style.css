@@ -28,7 +28,7 @@
     margin: 0px;
 }
 #nombre{
-    font-size: 50px;
+    font-size: 40px;
     color: blue;
     margin: 0px;
     padding: 0px;
@@ -67,6 +67,8 @@ header {
 body{
     margin: 0;
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 footer{
     position: sticky;
@@ -79,6 +81,11 @@ footer{
     color: white; 
     border-top: 3px solid black;
 }
+
+section {
+    flex-grow: 1;
+}
+
 .borde_superior {
     background-color: #007bff; 
     color: white; 
@@ -97,11 +104,11 @@ footer{
     margin: -4px;
     padding: 7px;
 }
-.ArrIzq {
+#ArrIzq {
     border-right: 1px solid white;
     font-size: xx-large;
 }
-.ArrIzq span {
+#ArrIzqspan {
     font-size: large;
 }
 .formulario{
@@ -133,6 +140,12 @@ footer{
     justify-content: center;
     gap: 20px;
     padding: 0;
+}
+
+.mensaje{
+    color: #87b1ef;
+    text-decoration: none;
+    font-size: 25px;
 }
 .dummy {
     width: 300px;
@@ -216,11 +229,11 @@ footer{
         padding: 7px;
         font-size: small;
     }
-    .ArrIzq {
+    #ArrIzq {
         border-right: 1px solid white;
         font-size: medium !important;
     }
-    .ArrIzq span {
+    #ArrIzqspan {
         font-size: smaller;
     }
     .formulario{
@@ -241,6 +254,11 @@ footer{
         font-size: 7px;
         padding: 2.5px 5px;
     }
+
+    .mensaje{
+        font-size: 15px;
+    }
+
     .dummy {
         width: 150px;
         height: 150px;
@@ -307,11 +325,11 @@ footer{
         padding: 7px;
         font-size: small;
     }
-    .ArrIzq {
+    #ArrIzq {
         border-right: 1px solid white;
         font-size: large !important;
     }
-    .ArrIzq span {
+    #ArrIzqspan {
         font-size: small;
     }
     .formulario{
@@ -332,6 +350,11 @@ footer{
         font-size: 14px;
         padding: 3px 6px;
     }
+
+    .mensaje{
+        font-size: 20px;
+    }
+
     .dummy {
         width: 225px;
         height: 225px;

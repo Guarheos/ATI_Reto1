@@ -1,8 +1,8 @@
 {
-	"sitio": ["ITA","[UCV]","2024-1"],
+	"sitio": ["ITA","[UCV]","2025-1"],
 	"home": "Home",
 	"login": "Login",
-	"copyRight":"Copyright © 2024 Computer school - ITA. All rights reserved",
+	"copyRight":"Copyright © 2025 Computer school - ITA. All rights reserved",
 	"nombre":"Name",
 	"descripcion":"",
 	"color":"My favorite color is",
@@ -12,5 +12,6 @@
 	"lenguajes":"Languages learned",
 	"email":"please send me a email to [email], if you need to contact me",
 	"buscar": "Search",
-	"saludo": "Hi"
+	"saludo": "Hi",
+	"vacio": "There are no students who have in their name: "
 }

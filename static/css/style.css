@@ -1,5 +1,29 @@
 /* Estilos de perfil.html */
 
+/* Nuevos estilos para SPA */
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Alinea el botón a la derecha */
+  }
+  
+
+#backBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 30px;
+    display:block;
+}
+
+#backBtn:hover {
+    background-color: #0056b3;
+}
 
 #foto {
     border-top-left-radius: 75px;
@@ -18,6 +42,7 @@
     display: flex;
     align-items: flex-start;
     margin: 0px;
+    min-height: 100vh;
 }
 .descripcion {
     box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.6);
@@ -177,7 +202,7 @@ section {
     text-decoration: none;
 }
 
-.dummy p a:visited {
+.dummy p a.visited {
     color: blue;
 }
 
